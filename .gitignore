@@ -1,0 +1,41 @@
+# 配置文件（包含敏感信息，不提交）
+config.json
+
+# 环境变量
+.env
+
+# 日志
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# 记忆数据（运行时生成，含个人数据）
+Memory/long_memory/
+Memory/tasks.db
+*.db
+
+# 临时文件
+tmp/
+tmp_py/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 虚拟环境
+venv/
+env/
+.venv/
